@@ -1,9 +1,6 @@
-<div id="openStudipNavigation">
-	<div class="navigationButton"></div>
-	<div class="navigationButton"></div>
-	<div class="navigationButton"></div>
-
-
+<?
+# Lifter010: TODO
+?>
 <!-- Start Header -->
 <div id="flex-header">
     <div id="header">
@@ -52,71 +49,7 @@
         </a>
     </div>
 </div>
-</div>
 
-<!--##### OHN HEADER #####-->
-
-<div id="main-container" class="main-container">
-
-	<div class="row top-header">
-		<div class="large-10 ten columns">
-			<img src="<?php echo $GLOBALS['OHN_IMAGES']; ?>/ci-bar.png" alt="" width="810" height="12" class="svg-fallback-image" />
-			<img src="<?php echo $GLOBALS['OHN_IMAGES']; ?>/ci-bar.svg" alt="" width="810" height="12" class="svg-image" />
-		</div>
-		<div class="large-2 two columns nds-logo-wrap">
-			<a href="http://www.niedersachsen.de/" target="_blank" title="Zum Internet-Portal der niedersächsischen Landesregierung">
-				<img src="<?php echo $GLOBALS['OHN_IMAGES']; ?>/niedersachsen-logo.png" alt="" width="150" height="36" class="nds-logo svg-fallback-image svg-fallback-image-block" />
-				<img src="<?php echo $GLOBALS['OHN_IMAGES']; ?>/niedersachsen-logo.svg" alt="" width="150" height="36" class="nds-logo svg-image" />
-			</a>
-			</div>
-		</div>
-
-	<header class="main-header row">
-	<div class="logo large-2 four columns">
-		<div class="toggle-mobile-menu hidden" id="toggle-mobile-menu" data-target-frame="#mother-of-all-elements">
-			<button type="button">Haupt-Menü auf-/zuklappen</button>
-		</div>
-		<a href="./" class="logo-link">
-			<img src="<?php echo $GLOBALS['OHN_IMAGES']; ?>/ohn-logo.png" alt="Offene Hochschule Niedersachsen" width="245" height="60" class="svg-fallback-image" />
-			<img src="<?php echo $GLOBALS['OHN_IMAGES']; ?>/ohn-logo.svg?14" alt="Offene Hochschule Niedersachsen" width="245" height="60" class="svg-image" />
-		</a>
-	</div>
-	<div class="nav-search large-10 eight columns clearfix js-flexible-menu js-search-slot" data-target="#mobile-menu-container" data-content='["#main-nav", "#main-search"]'>
-
-		<nav class="main-nav align-right" id="main-nav">
-			<a href="site/studieninteressierte/" class="main-nav-item align-left js-main-nav-item ">
-				<span>Studien-<br/> interessierte</span>
-			</a>
-			<a href="site/unternehmen-organisationen" class="main-nav-item align-left js-main-nav-item ">
-				<span>Unternehmen und<br /> Organisationen</span>
-			</a>
-			<a href="site/bildungsanbieter/" class="main-nav-item align-left js-main-nav-item ">
-				<span>Bildungs-<br /> anbieter</span>
-			</a>
-			<a href="site/gesellschafterpartner/" class="main-nav-item align-left js-main-nav-item ">
-				<span>Gesellschafter<br /> und Partner</span>
-			</a>
-			<a href="site/mooc/" class="main-nav-item align-left js-main-nav-item current">
-				<span>MOOC.IP<br /> Videos</span>
-			</a>
-			<a href="site/offene-hochschule/" class="main-nav-item align-left js-main-nav-item ">
-				<span>Offene<br /> Hochschule</span>
-			</a>
-		</nav>
-
-		<form action="suchergebnisse" class="main-search" name="main-search" id="main-search" method="GET">
-	<fieldset>
-		<label for="s" class="main-search-label ir">Suche</label>
-		<input type="text" class="main-search-input js-main-search-input" id="s" name="s" accesskey="3" placeholder="Suchen &hellip;" />
-	</fieldset>
-</form>
-		
-	</div>
-</header>
-
-		</div>
-		
-		
 <!-- Leiste unten -->
 <div id="barBottomContainer" <?= $public_hint ? 'class="public_course"' : '' ?>>
     <div id="barBottomLeft">
@@ -180,7 +113,7 @@
               ?>
               <input type="hidden" name="search_sem_sem" value="<?= $search_semester_nr ?>">
               <input type="hidden" name="search_sem_qs_choose" value="title_lecturer_number">
-              <?= Assets::input("icons/16/black/search.png", array('type' => "image", 'class' => "quicksearchbutton", 'name' => "search_sem_do_search", 'value' => "OK", 'title' => sprintf(_('Nach Veranstaltungen suchen (%s)'), htmlready($search_semester_name)))) ?>
+              <?= Assets::input("icons/16/white/search.png", array('type' => "image", 'class' => "quicksearchbutton", 'name' => "search_sem_do_search", 'value' => "OK", 'title' => sprintf(_('Nach Veranstaltungen suchen (%s)'), htmlready($search_semester_name)))) ?>
               </form>
             </li>
             <? endif ?>

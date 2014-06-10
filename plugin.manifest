@@ -1,5 +1,5 @@
-pluginname=OHN
-pluginclassname=OHNLayout
+pluginname=Theming
+pluginclassname=Theming
 origin=virtUOS
-version=0.1a
+version=0.2
 studipMinVersion=3.0

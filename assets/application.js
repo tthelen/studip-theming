@@ -1,7 +1,3 @@
-(function ($) {
-
-    $("#openStudipNavigation").click(function() {
-	    alert("test");
-    });
-
-}(jQuery));
+// place custom javascript code here
+// 
+//

@@ -1,6 +1,6 @@
 <?php
 
-namespace OHN;
+namespace Theming;
 
 /**
  * FactoryProxy - enable overwriting of Stud.IP-Templates
@@ -47,3 +47,4 @@ class FactoryProxy extends \Flexi_TemplateFactory
         return new $class($file, $this, $options);
     }
 }
+
