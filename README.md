@@ -2,7 +2,7 @@ Theming
 =========
 
 
-Mit diesem Plugin ist es mÃ¶glich, Stud.IP-Templates in ein Plugin zu verpacken und somit die Standard-Templates von Stud.IP mit eigenen Templates zu Ã¼berschreiben.
+Mit diesem Plugin ist es möglich, Stud.IP-Templates in ein Plugin zu verpacken und somit die Standard-Templates von Stud.IP mit eigenen Templates zu überschreiben.
 
 Man muss dazu lediglich im templates-Verzeichnis des Plugins Pfad + Dateiname des Originals hinterlegen und den Inhalt nach belieben gestalten.
 
